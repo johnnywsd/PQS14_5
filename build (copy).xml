@@ -1,24 +1,10 @@
 <project name="PS5_sp14" basedir="." default="main">
   <property name="src.dir" value="src" />
-  <property name="test.dir" location="testsrc" />
   <!-- <property name="lib.dir" value="lib" /> -->
   <property name="build.dir" value="bin" />
   <property name="classes.dir" value="${build.dir}/classes" />
   <property name="jar.dir" value="${build.dir}/jar" />
   <property name="main-class" value="com.shoudaw.pqs14_5.DrawingApp" />
-   <property name="test.report.dir" location="testreport" />
-
-  
-
-  <path id="junit.class.path">
-    <pathelement location="lib/junit.jar" />
-    <pathelement location="${classes.dir}" />
-  </path>
-
-  <target name="makedir">
-    <mkdir dir="${build.dir}" />
-    <mkdir dir="${test.report.dir}" />
-  </target>
 
   <path id="classpath">
     <!-- <fileset dir="${lib.dir}" includes="**/*.jar" /> -->
@@ -28,16 +14,11 @@
     <delete dir="${build.dir}" />
   </target>
 
-  <target name="compile" depends="clean, makedir">
+  <target name="compile" >
     <mkdir dir="${classes.dir}" />
     <javac srcdir="${src.dir}" destdir="${classes.dir}" 
       includeantruntime="false"
-      classpathref="classpath">
-      <classpath refid="junit.class.path" />
-  	</javac>
-  	<javac srcdir="${test.dir}" destdir="${classes.dir}">
-      <classpath refid="junit.class.path" />
-    </javac>
+      classpathref="classpath"/>
   </target>
 
   <target name="jar" depends="compile" >
@@ -61,19 +42,10 @@
     <!--<java jar="${jar.dir}/${ant.project.name}.jar" fork="true" />-->
   </target>
 
-  
-
-  <target name="junit" depends="compile">
-    <junit printsummary="on" fork="true" haltonfailure="yes">
-      <classpath refid="junit.class.path" />
-      <formatter type="xml" />
-      <batchtest todir="${test.report.dir}">
-        <fileset dir="${test.dir}">
-          <include name="**/*Test*.java" />
-        </fileset>
-      </batchtest>
-    </junit>
-  </target>
+  <path id="junit.class.path">
+    <pathelement location="lib/junit.jar" />
+    <pathelement location="${classes.dir}" />
+  </path>
 
 
   <target name="clean-build" depends="clean, jar" />

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="johnny-Ubuntu" name="com.shoudaw.pqs14_5.DrawingModelTest" tests="1" time="0.054" timestamp="2014-05-16T20:23:17">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/home/johnny/software/jdk1.7.0_17/jre/lib/resources.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/rt.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/sunrsasign.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/jsse.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/jce.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/charsets.jar:/home/johnny/software/jdk1.7.0_17/jre/lib/jfr.jar:/home/johnny/software/jdk1.7.0_17/jre/classes" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="jar.dir" value="bin/jar" />
+    <property name="java.runtime.version" value="1.7.0_17-b02" />
+    <property name="user.name" value="johnny" />
+    <property name="build.dir" value="bin" />
+    <property name="user.language" value="en" />
+    <property name="test.report.dir" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/testreport" />
+    <property name="sun.boot.library.path" value="/home/johnny/software/jdk1.7.0_17/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="ant.project.name" value="PS5_sp14" />
+    <property name="java.version" value="1.7.0_17" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/home/johnny/software/jdk1.7.0_17/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="bin/classes" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/home/johnny/software/jdk1.7.0_17/jre" />
+    <property name="ant.file.type.PS5_sp14" value="file" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="main-class" value="com.shoudaw.pqs14_5.DrawingApp" />
+    <property name="ant.file" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/build.xml" />
+    <property name="os.version" value="3.8.0-35-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="23.7-b01" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.home" value="/home/johnny" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/testsrc" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.shoudaw.pqs14_5.DrawingModelTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/testreport/TEST-com.shoudaw.pqs14_5.DrawingModelTest.xml crashfile=/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/junitvmwatcher7062624357102284029.properties propsfile=/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/junit2047715953097054559.properties" />
+    <property name="java.class.path" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/lib/junit.jar:/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/bin/classes:/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14:/home/johnny/software/jdk1.7.0_17/lib/dt.jar:/home/johnny/software/jdk1.7.0_17/lib/tools.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="ant.file.PS5_sp14" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14/build.xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/home/johnny/software/jdk1.7.0_17/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/home/johnny/Documents/NYU/PQS/svnroot_pqs_141/trunk/PS5_sp14" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="junit" />
+  </properties>
+  <testcase classname="com.shoudaw.pqs14_5.DrawingModelTest" name="initializationError" time="0.011">
+    <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
