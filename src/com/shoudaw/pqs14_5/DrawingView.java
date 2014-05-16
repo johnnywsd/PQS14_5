@@ -17,13 +17,19 @@ class DrawingView extends JPanel
    * 
    */
   private static final long serialVersionUID = 1L;
-  /* point & prpoint are used to keep track of current and
+  
+  /**
+   * point & prpoint are used to keep track of current and
    * previous point to draw the line
    */
   Point point,prpoint; 
   
   private DrawingModel drawingModel = null;
 
+  /**
+   * Init the view, show the GUI
+   * @param drawingModel
+   */
   public DrawingView(DrawingModel drawingModel) {
     /*Initializing*/
     point=null;  
